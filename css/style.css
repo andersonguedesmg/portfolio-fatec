@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sacramento&display=swap');
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.divider {
+    height: 0.5vh;
+    background-color: #ffd700;
+}
+
+.header {
+    height: 89.5vh;
+    background-color: #141422;
+}
+
+.header-title-developer{
+    font: Bold 60px 'Red Hat Display';
+    letter-spacing: 0.7px;
+    color: #20968B;
+    padding-top: 25vh;
+    padding-left: 4vw;
+}
+
+.header-title-designer{
+    font: Bold 60px 'Red Hat Display';
+    letter-spacing: 0.7px;
+    color: #20968B;
+    padding-top: 25vh;
+    padding-left: 7vw;
+}
+
+.header-text{
+    text-align: center;
+    font: 20px 'Poppins';
+    letter-spacing: 0.35px;
+    color: #FFFFFF;
+    padding-top: 5vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.header-name{
+    text-align: center;
+    font: 85px/90px 'Sacramento';
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+.header-logo{
+    margin-top: 10vh;
+    margin-left: 2vw;
+    /* width: 50vw; */
+    height: 40vh;
+}
+
+
+/* .teste{
+    height: 89.5vh;
+    border: 1px solid red;
+} */
