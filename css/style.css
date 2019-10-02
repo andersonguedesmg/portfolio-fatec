@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nothing+You+Could+Do&display=swap');
+
+/* common */
 
 .row {
     margin-right: 0px;
@@ -12,28 +15,46 @@
     background-color: #ffd700;
 }
 
+/* .teste{
+    height: 89.5vh;
+    border: 1px solid red;
+} */
+
+.title-section {
+    display: flex;
+    justify-content: center;
+    color: #20968B;
+    font: Bold 28px 'Red Hat Display';
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+}
+
+/* header */
+
 .header {
     height: 89.5vh;
     background-color: #141422;
 }
 
-.header-title-developer{
-    font: Bold 60px 'Red Hat Display';
+.header-title-developer {
+    font: Bold 45px 'Red Hat Display';
     letter-spacing: 0.7px;
     color: #20968B;
-    padding-top: 25vh;
-    padding-left: 4vw;
+    padding-top: 35vh;
+    padding-left: 7.5vw;
 }
 
-.header-title-designer{
-    font: Bold 60px 'Red Hat Display';
+.header-title-designer {
+    font: Bold 45px 'Red Hat Display';
     letter-spacing: 0.7px;
     color: #20968B;
-    padding-top: 25vh;
-    padding-left: 7vw;
+    padding-top: 35vh;
+    padding-left: 8vw;
 }
 
-.header-text{
+.header-text {
     text-align: center;
     font: 20px 'Poppins';
     letter-spacing: 0.35px;
@@ -43,22 +64,109 @@
     padding-right: 5vw;
 }
 
-.header-name{
+.header-name {
     text-align: center;
-    font: 85px/90px 'Sacramento';
-    letter-spacing: 0;
+    /* font: 85px/90px 'Sacramento'; */
+    font: 60px 'Nothing You Could Do';
+    letter-spacing: 1.5px;
     color: #FFFFFF;
 }
 
-.header-logo{
+.header-logo {
     margin-top: 10vh;
     margin-left: 2vw;
     /* width: 50vw; */
     height: 40vh;
 }
 
+/* works */
 
-/* .teste{
-    height: 89.5vh;
-    border: 1px solid red;
-} */
+.works {
+    background-color: #141422;
+    padding-bottom: 10vh;
+}
+
+.card {
+    background-color: #262633;
+    width: 18rem;
+    height: 22rem;
+}
+
+.card-img-top {
+    cursor: pointer;
+}
+
+.card-title {
+    color: #20968B;
+    font-family: 'Red Hat Display', sans-serif;
+    cursor: pointer;
+}
+
+.card-text {
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.row-items{
+    display: flex;
+    justify-content: center;
+}
+
+.card-item {
+    color: #20968B;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+}
+
+.card-more {
+    cursor: pointer;
+}
+
+.card-more:hover {
+    opacity: 0.9;
+}
+
+.card-body-more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-card-more {
+    display: flex;
+    justify-content: center;
+    color: #20968B;
+    font: Bold 30px 'Poppins';
+}
+
+/* curriculum */
+
+.curriculum {
+    background-color: #141422;
+    padding-bottom: 10vh;
+}
+
+
+.curriculum-item{
+    color: #20968B;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.45px;
+    text-transform: uppercase;
+}
+
+/* contact */
+
+.contact {
+    background-color: #141422;
+    padding-bottom: 10vh;
+}
+
+/* footer */
+
+.footer-copyright{
+    color: #FFFFFF;
+}
