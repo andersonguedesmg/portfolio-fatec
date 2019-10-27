@@ -134,6 +134,7 @@
 
 
 
+
 /* curriculum */
 
 .curriculum {
@@ -149,7 +150,30 @@
     text-transform: uppercase;
 }
 
+.curriculum-text {
+    text-align: center;
+    font: 16px 'Poppins';
+    letter-spacing: 0.35px;
+    color: #FFFFFF;
+}
 
+.curriculum-text-items {
+    font: 16px 'Poppins';
+    letter-spacing: 0.35px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.curriculum-text-secondary-items {
+    font: 13px 'Poppins';
+    letter-spacing: 0.35px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.padding-curriculum-text {
+    padding-top: 5vh;
+}
 
 
 
@@ -160,6 +184,13 @@
 .contact {
     background-color: #141422;
     padding-bottom: 10vh;
+}
+
+.contact-text {
+    text-align: center;
+    font: 16px 'Poppins';
+    letter-spacing: 0.35px;
+    color: #FFFFFF;
 }
 
 /* footer */
