@@ -1,7 +1,6 @@
 @import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
 @import url('https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Sacramento&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Nothing+You+Could+Do&display=swap');
 
 /* common */
@@ -13,7 +12,7 @@
 
 .divider {
     height: 0.5vh;
-    background-color: #ffd700;
+    background-color: #FFD700;
 }
 
 .title-section {
@@ -25,6 +24,15 @@
     letter-spacing: 0.5px;
     padding-bottom: 5vh;
     padding-top: 5vh;
+}
+
+.footer-copyright {
+    color: #FFFFFF;
+}
+
+.fab,
+.fas {
+    color: #20968B;
 }
 
 /* navbar */
@@ -87,6 +95,7 @@
     background-color: #262633;
     width: 18rem;
     height: 22rem;
+    cursor: pointer;
 }
 
 .card-img-top {
@@ -96,7 +105,6 @@
 .card-title {
     color: #20968B;
     font-family: 'Red Hat Display', sans-serif;
-    cursor: pointer;
 }
 
 .card-text {
@@ -137,6 +145,10 @@
     justify-content: center;
     color: #20968B;
     font: Bold 30px 'Poppins';
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 /* curriculum */
@@ -191,17 +203,4 @@
     font: 16px 'Poppins';
     letter-spacing: 0.35px;
     color: #FFFFFF;
-}
-
-/* footer */
-
-.footer-copyright {
-    color: #FFFFFF;
-}
-
-/* icons */
-
-.fab,
-.fas {
-    color: #20968B;
 }
