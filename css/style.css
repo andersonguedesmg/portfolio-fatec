@@ -27,6 +27,20 @@
     padding-top: 5vh;
 }
 
+/* navbar */
+
+.icon-navbar {
+    color: rgba(255, 255, 255, .5) !important;
+}
+
+.icon-navbar:hover {
+    color: #ffd700 !important;
+}
+
+.nav-link:hover {
+    color: #ffd700 !important;
+}
+
 /* header */
 
 .header {
@@ -61,11 +75,6 @@
     color: #FFFFFF;
     padding-top: 3vh;
 }
-
-
-
-
-
 
 /* works */
 
@@ -130,11 +139,6 @@
     font: Bold 30px 'Poppins';
 }
 
-
-
-
-
-
 /* curriculum */
 
 .curriculum {
@@ -174,10 +178,6 @@
 .padding-curriculum-text {
     padding-top: 5vh;
 }
-
-
-
-
 
 /* contact */
 
