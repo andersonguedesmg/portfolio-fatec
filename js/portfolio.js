@@ -41,16 +41,7 @@
 
 })(jQuery); // End of use strict
 
-
-
-
-
-
-
-
-
-
-
+// =====================================================================================================
 class TypeWriter {
   constructor(txtElement, words, wait = 3000) {
     this.txtElement = txtElement;
@@ -105,7 +96,6 @@ class TypeWriter {
   }
 }
 
-
 // Init On DOM Load
 document.addEventListener('DOMContentLoaded', init);
 
@@ -117,3 +107,11 @@ function init() {
   // Init TypeWriter
   new TypeWriter(txtElement, words, wait);
 }
+
+// =====================================================================================================
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+
+// =====================================================================================================
+
