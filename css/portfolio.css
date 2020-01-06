@@ -31,11 +31,6 @@ a:hover {
   }
 }
 
-.divider {
-  height: 0.5vh;
-  background-color: #FFD700;
-}
-
 /* Scroll */
 #page-top::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
@@ -201,6 +196,18 @@ header.header .intro-text {
 
 /* About */
 
+#about {
+  display: flex;
+  justify-content: center;
+  color: #20968B;
+  font: Bold 28px 'Red Hat Display';
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding-bottom: 5vh;
+  padding-top: 5vh;
+  background-color: #262633;
+}
+
 /* Portfolio */
 #portfolio .title-section {
   display: flex;
@@ -286,7 +293,7 @@ a:hover {
 
 
 /* Curriculum */
-#curriculum .title-section {
+#curriculum {
   display: flex;
   justify-content: center;
   color: #20968B;
@@ -295,6 +302,7 @@ a:hover {
   letter-spacing: 0.5px;
   padding-bottom: 5vh;
   padding-top: 5vh;
+  background-color: #262633;
 }
 
 .timeline {
