@@ -21,8 +21,7 @@ a:hover {
 }
 
 .page-section {
-  padding: 5vh 0;
-  background-color: #141422;
+  padding: 5vh 0 7vh 0;
 }
 
 @media (min-width: 768px) {
@@ -195,8 +194,11 @@ header.header .intro-text {
 }
 
 /* About */
-
 #about {
+  background-color: #262633;
+}
+
+#about .title-section {
   display: flex;
   justify-content: center;
   color: #20968B;
@@ -204,11 +206,14 @@ header.header .intro-text {
   text-transform: uppercase;
   letter-spacing: 0.5px;
   padding-bottom: 5vh;
-  padding-top: 5vh;
-  background-color: #262633;
+  /* padding-top: 5vh; */
 }
 
 /* Portfolio */
+#portfolio {
+  background-color: #141422;
+}
+
 #portfolio .title-section {
   display: flex;
   justify-content: center;
@@ -217,7 +222,7 @@ header.header .intro-text {
   text-transform: uppercase;
   letter-spacing: 0.5px;
   padding-bottom: 5vh;
-  padding-top: 5vh;
+  /* padding-top: 5vh; */
 }
 
 .container .centralize {
@@ -294,6 +299,10 @@ a:hover {
 
 /* Curriculum */
 #curriculum {
+  background-color: #262633;
+}
+
+#curriculum .title-section {
   display: flex;
   justify-content: center;
   color: #20968B;
@@ -301,8 +310,7 @@ a:hover {
   text-transform: uppercase;
   letter-spacing: 0.5px;
   padding-bottom: 5vh;
-  padding-top: 5vh;
-  background-color: #262633;
+  /* padding-top: 5vh; */
 }
 
 .timeline {
@@ -525,15 +533,11 @@ a:hover {
 
 
 
-
-
-
-
-
-
-
-
 /* Contact */
+#contact {
+  background-color: #141422;
+}
+
 #contact .title-section {
   display: flex;
   justify-content: center;
@@ -542,7 +546,7 @@ a:hover {
   text-transform: uppercase;
   letter-spacing: 0.5px;
   padding-bottom: 5vh;
-  padding-top: 5vh;
+  /* padding-top: 5vh; */
 }
 
 /* Footer */
@@ -648,6 +652,6 @@ ul.social-buttons li a:hover {
 /* ===================================================================================================== */
 /* portfolio page */
 
-.row-padding{
+.row-padding {
   padding-top: 6vh;
 }
