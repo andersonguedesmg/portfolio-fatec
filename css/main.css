@@ -152,13 +152,59 @@ a:hover {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #262633;
+    background-color: #000000;
   }
 
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
     padding: 12px 0;
   }
+}
+
+/* Footer */
+.footer {
+  padding: 25px 0;
+  text-align: center;
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.footer span.copyright {
+  font-size: 90%;
+  line-height: 40px;
+  text-transform: none;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.footer ul.quicklinks {
+  font-size: 90%;
+  line-height: 40px;
+  margin-bottom: 0;
+  text-transform: none;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+ul.social-buttons {
+  margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+  font-size: 20px;
+  line-height: 50px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  transition: all 0.3s;
+  color: #20968B;
+  border-radius: 100%;
+  outline: none;
+  background-color: #FFF;
+}
+
+ul.social-buttons li a:active,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:hover {
+  background-color: #fed136;
 }
 
 /* Header */
@@ -332,12 +378,6 @@ header.header .intro-text {
 a:hover {
   text-decoration: none;
 }
-
-
-
-
-
-
 
 /* Curriculum */
 #curriculum {
@@ -572,9 +612,6 @@ a:hover {
   }
 }
 
-
-
-
 /* Contact */
 #contact {
   background-color: #141422;
@@ -591,56 +628,7 @@ a:hover {
   /* padding-top: 5vh; */
 }
 
-/* Footer */
-.footer {
-  padding: 25px 0;
-  text-align: center;
-  background-color: #262633;
-  color: #FFFFFF;
-}
-
-.footer span.copyright {
-  font-size: 90%;
-  line-height: 40px;
-  text-transform: none;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-}
-
-.footer ul.quicklinks {
-  font-size: 90%;
-  line-height: 40px;
-  margin-bottom: 0;
-  text-transform: none;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-}
-
-ul.social-buttons {
-  margin-bottom: 0;
-}
-
-ul.social-buttons li a {
-  font-size: 20px;
-  line-height: 50px;
-  display: block;
-  width: 50px;
-  height: 50px;
-  transition: all 0.3s;
-  color: #20968B;
-  border-radius: 100%;
-  outline: none;
-  background-color: #FFF;
-}
-
-ul.social-buttons li a:active,
-ul.social-buttons li a:focus,
-ul.social-buttons li a:hover {
-  background-color: #fed136;
-}
-
-
 /* ===================================================================================================== */
-
-
 
 .progress-outer {
   margin: 0.7rem;
@@ -689,11 +677,24 @@ ul.social-buttons li a:hover {
   }
 }
 
-
-
-/* ===================================================================================================== */
 /* portfolio page */
 
+#portfolio-page{
+  padding-top: 20vh;
+  background-color: #141422;
+}
+
+#portfolio-page .title-section {
+  display: flex;
+  justify-content: center;
+  color: #20968B;
+  font: Bold 28px 'Red Hat Display';
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding-bottom: 5vh;
+  /* padding-top: 5vh; */
+}
+
 .row-padding {
-  padding-top: 6vh;
+  padding-top: 7vh;
 }

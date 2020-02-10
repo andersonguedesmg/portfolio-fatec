@@ -1,172 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
-@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Nothing+You+Could+Do&display=swap');
-
-/* Common */
-body {
-  overflow-x: hidden;
-}
-
-p {
-  line-height: 1.75;
-}
-
-a {
-  color: #fed136;
-}
-
-a:hover {
-  color: #fec503;
-}
-
-.page-section {
-  padding: 5vh 0 7vh 0;
-}
-
-@media (min-width: 768px) {
-  section {
-    padding: 150px 0;
-  }
-}
-
-/* ScrollBar */
-#page-top::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
-  background-color: #F5F5F5;
-  border-radius: 10px;
-}
-
-#page-top::-webkit-scrollbar {
-  width: 10px;
-  background-color: #F5F5F5;
-}
-
-#page-top::-webkit-scrollbar-thumb {
-  background-color: #000000;
-
-}
-
-/* ButtonScrollToTop */
-.scroll-top-wrapper {
-  position: fixed;
-  opacity: 0;
-  visibility: hidden;
-  overflow: hidden;
-  text-align: center;
-  z-index: 99999999;
-  background-color: #20968B;
-  color: #FFFFFF;
-  width: 50px;
-  height: 48px;
-  line-height: 48px;
-  right: 30px;
-  bottom: 30px;
-  padding-top: 2px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-}
-
-.scroll-top-wrapper:hover {
-  background-color: #FFFFFF;
-  color: #20968B;
-}
-
-.scroll-top-wrapper.show {
-  visibility: visible;
-  cursor: pointer;
-  opacity: 1.0;
-}
-
-.scroll-top-wrapper i.fa {
-  line-height: inherit;
-}
-
-/* Navbar */
-#mainNav {
-  background-color: #212529;
-}
-
-#mainNav .navbar-toggler {
-  font-size: 12px;
-  right: 0;
-  padding: 13px;
-  text-transform: uppercase;
-  color: white;
-  border: 0;
-  background-color: #fed136;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-}
-
-#mainNav .navbar-brand {
-  color: #fed136;
-  font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-}
-
-#mainNav .navbar-brand.active,
-#mainNav .navbar-brand:active,
-#mainNav .navbar-brand:focus,
-#mainNav .navbar-brand:hover {
-  color: #fec503;
-}
-
-#mainNav .navbar-nav .nav-item .nav-link {
-  font-size: 90%;
-  font-weight: 400;
-  padding: 0.75em 0;
-  letter-spacing: 1px;
-  color: white;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-}
-
-#mainNav .navbar-nav .nav-item .nav-link.active,
-#mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
-}
-
-@media (min-width: 992px) {
-  #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    transition: padding-top 0.3s, padding-bottom 0.3s;
-    border: none;
-    background-color: transparent;
-  }
-
-  #mainNav .navbar-brand {
-    font-size: 1.75em;
-    transition: all 0.3s;
-  }
-
-  #mainNav .navbar-nav .nav-item .nav-link {
-    padding: 1.1em 1em !important;
-  }
-
-  #mainNav.navbar-shrink {
-    padding-top: 0;
-    padding-bottom: 0;
-    background-color: #262633;
-  }
-
-  #mainNav.navbar-shrink .navbar-brand {
-    font-size: 1.25em;
-    padding: 12px 0;
-  }
-}
-
 /* Descriptive Memorial */
-#descriptive-memorial {
+#descriptive-memorial-odd {
   background-color: #141422;
 }
 
-#descriptive-memorial .title-section {
+#descriptive-memorial-even {
+  background-color: #262633;
+}
+
+#descriptive-memorial-even,
+#descriptive-memorial-odd {
+  color: #FFFFFF;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+}
+
+#descriptive-memorial-even .title-section,
+#descriptive-memorial-odd .title-section {
   display: flex;
   justify-content: center;
   color: #20968B;
@@ -241,52 +92,6 @@ a:hover {
 
 a:hover {
   text-decoration: none;
-}
-
-/* Footer */
-.footer {
-  padding: 25px 0;
-  text-align: center;
-  background-color: #262633;
-  color: #FFFFFF;
-}
-
-.footer span.copyright {
-  font-size: 90%;
-  line-height: 40px;
-  text-transform: none;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-}
-
-.footer ul.quicklinks {
-  font-size: 90%;
-  line-height: 40px;
-  margin-bottom: 0;
-  text-transform: none;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-}
-
-ul.social-buttons {
-  margin-bottom: 0;
-}
-
-ul.social-buttons li a {
-  font-size: 20px;
-  line-height: 50px;
-  display: block;
-  width: 50px;
-  height: 50px;
-  transition: all 0.3s;
-  color: #20968B;
-  border-radius: 100%;
-  outline: none;
-  background-color: #FFF;
-}
-
-ul.social-buttons li a:active,
-ul.social-buttons li a:focus,
-ul.social-buttons li a:hover {
-  background-color: #fed136;
 }
 
 /* ===================================================================================================== */
