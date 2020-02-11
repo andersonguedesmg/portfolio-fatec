@@ -109,3 +109,23 @@ a:hover {
   letter-spacing: 0.8px;
   font-weight: 500;
 }
+
+.callout {
+  padding: 1%;
+  border-left: solid rgb(33, 33, 33) 5px;
+  border-radius: 3px;
+  margin: 1.5%;
+}
+
+.callout-dark {
+  background-color: #141422;
+  /* border-left-color: rgb(78, 203, 105); */
+  border-left-color: #530082;
+}
+
+.callout-light {
+  background-color: #262633;
+  /* border-left-color: rgb(64, 97, 71); */
+  border-left-color: #530082;
+}
+
