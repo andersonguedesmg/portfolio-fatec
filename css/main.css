@@ -357,6 +357,12 @@ header.header .intro-text {
   letter-spacing: 0.5px;
 }
 
+.container .centralize .card-icons {
+  margin: 0;
+  color: #20968B;
+  font-size: 120%;
+}
+
 .container .centralize .card-body-more {
   display: flex;
   align-items: center;
@@ -698,3 +704,4 @@ a:hover {
 .row-padding {
   padding-top: 7vh;
 }
+
