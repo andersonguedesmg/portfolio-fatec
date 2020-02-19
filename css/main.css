@@ -363,6 +363,10 @@ header.header .intro-text {
   font-size: 120%;
 }
 
+.container .centralize .card-icons .icons-card {
+  padding-left: 5%;;
+}
+
 .container .centralize .card-body-more {
   display: flex;
   align-items: center;
