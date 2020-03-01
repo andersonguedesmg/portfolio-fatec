@@ -143,11 +143,18 @@ $(function () {
 // =====================================================================================================
 // ProgressBar
 var lang = {
-  "html": "100%",
-  "css": "90%",
-  "javascript": "70%",
-  "php": "55%",
-  "angular": "65%"
+  "html": "85%",
+  "css": "80%",
+  "bootstrap": "80%",
+  "angular": "70%",
+  "adobexd": "65%",
+  "figma": "65%",
+  "materialize": "65%",
+  "github": "60%",
+  "typescript": "60%",
+  "sqlserver": "60%",
+  "photoshop": "55%",
+  "csharp": "50%",
 };
 
 var multiply = 4;

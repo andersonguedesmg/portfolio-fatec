@@ -12,12 +12,8 @@ p {
   line-height: 1.75;
 }
 
-a {
-  color: #fed136;
-}
-
 a:hover {
-  color: #fec503;
+  color: #77448b;
 }
 
 .page-section {
@@ -98,15 +94,15 @@ a:hover {
   right: 0;
   padding: 13px;
   text-transform: uppercase;
-  color: white;
+  color: #FFFFFF;
   border: 0;
-  background-color: #fed136;
+  background-color: #77448b;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 #mainNav .navbar-brand {
-  color: #fed136;
+  color: #77448b;
   font-family: "Kaushan Script", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -115,7 +111,7 @@ a:hover {
 #mainNav .navbar-brand:active,
 #mainNav .navbar-brand:focus,
 #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: #77448b;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -123,14 +119,14 @@ a:hover {
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: white;
+  color: #FFFFFF;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #77448b;
 }
 
 @media (min-width: 992px) {
@@ -168,7 +164,7 @@ a:hover {
   padding: 25px 0;
   text-align: center;
   background-color: #000000;
-  color: #ffffff;
+  color: #FFFFFF;;
 }
 
 .footer span.copyright {
@@ -202,19 +198,20 @@ ul.social-buttons li a {
   color: #20968b;
   border-radius: 100%;
   outline: none;
-  background-color: #fff;
+  background-color: #FFFFFF;;
 }
 
 ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #77448b;
+  color: #FFFFFF;
 }
 
 /* Header */
 header.header {
   text-align: center;
-  color: white;
+  color: #FFFFFF;
   background-color: #141422;
   /* background-image: url("../assets/images/header-bg.jpg"); */
   background-repeat: no-repeat;
@@ -341,7 +338,7 @@ header.header .intro-text {
 }
 
 .container .centralize .card-title {
-  color: #ffffff;
+  color: #FFFFFF;
   font-family: "Red Hat Display", sans-serif;
   font-size: 1.2rem;
   letter-spacing: 0.8px;
@@ -354,7 +351,7 @@ header.header .intro-text {
 }
 
 .container .centralize .card-text {
-  color: #ffffff;
+  color: #FFFFFF;
   font-family: "Poppins", sans-serif;
   font-size: 0.8rem;
   opacity: 0.8;
@@ -380,7 +377,7 @@ header.header .intro-text {
 .container .text-card-more {
   display: flex;
   justify-content: center;
-  color: #ffffff;
+  color: #FFFFFF;
   font-size: 2.3rem;
   font-family: "Poppins", sans-serif;
 }
@@ -472,10 +469,10 @@ a:hover {
   height: 80px;
   margin-left: 0;
   text-align: center;
-  color: white;
+  color: #FFFFFF;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #fed136;
+  background-color: #77448b;
 }
 
 .timeline > li .timeline-image h4 {
@@ -532,7 +529,7 @@ a:hover {
 }
 
 .timeline .text-description {
-  color: #ffffff !important;
+  color: #FFFFFF !important;
   font-family: "Poppins", sans-serif;
   font-size: 0.8rem;
   opacity: 0.8;
@@ -642,6 +639,32 @@ a:hover {
   /* padding-top: 5vh; */
 }
 
+.contact {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-contact {
+  color: #20968b;
+  font-size: 150%;
+}
+
+.text-contact {
+  color: #FFFFFF;
+  padding-top: 1%;
+  opacity: 0.8;
+  font-size: 1rem;
+  letter-spacing: 0.8px;
+}
+
+.text-test{
+    color: #FFFFFF;
+    opacity: 0.7;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.8px;
+}
+
 /* ===================================================================================================== */
 
 /* portfolio page */
@@ -666,269 +689,3 @@ a:hover {
   padding-top: 7vh;
 }
 
-.contact {
-  display: flex;
-  justify-content: center;
-}
-
-.icon-contact {
-  color: #20968b;
-  font-size: 150%;
-}
-
-.text-contact {
-  color: #ffffff;
-  padding-top: 1%;
-  opacity: 0.8;
-  font-size: 1rem;
-  letter-spacing: 0.8px;
-}
-
-.text-test{
-    color: #ffffff;
-    opacity: 0.7;
-    font-family: "Red Hat Display", sans-serif;
-    font-size: 1rem;
-    letter-spacing: 0.8px;
-}
-
-
-#skills .title-section {
-  display: flex;
-  justify-content: center;
-  color: #20968b;
-  font: Bold 28px "Red Hat Display";
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  padding-bottom: 5vh;
-  /* padding-top: 5vh; */
-}
-
-#skills {
-  background-color: #141422;
-}
-
-.skills-bar-container {
-  position: relative;
-  width: 40%;
-  min-width: 300px;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  list-style: none;
-}
-.skills-bar-container li {
-  position: relative;
-  width: 100%;
-  padding: 5px;
-  margin-bottom: 10px;
-}
-.skills-bar-container li .progressbar-title {
-  color: #fff;
-}
-.skills-bar-container li .progressbar-title h3 {
-  display: inline-block;
-}
-.skills-bar-container li .progressbar-title .percent {
-  position: absolute;
-  right: 5px;
-}
-.skills-bar-container li .bar-container {
-  background: #555;
-  position: relative;
-  width: 100%;
-  height: 5px;
-  margin-top: 5px;
-  display: block;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  border-radius: 5px;
-}
-.skills-bar-container li .bar-container .progressbar {
-  position: absolute;
-  width: 0%;
-  height: 100%;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  border-radius: 5px;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-.skills-bar-container li .bar-container #progress-html {
-  -webkit-animation-name: progress-html;
-  animation-name: progress-html;
-  -webkit-animation-delay: 0.7s;
-  animation-delay: 0.7s;
-}
-.skills-bar-container li .bar-container #progress-css {
-  -webkit-animation-name: progress-css;
-  animation-name: progress-css;
-  -webkit-animation-delay: 1.4s;
-  animation-delay: 1.4s;
-}
-.skills-bar-container li .bar-container #progress-javascript {
-  -webkit-animation-name: progress-javascript;
-  animation-name: progress-javascript;
-  -webkit-animation-delay: 2.1s;
-  animation-delay: 2.1s;
-}
-.skills-bar-container li .bar-container #progress-php {
-  -webkit-animation-name: progress-php;
-  animation-name: progress-php;
-  -webkit-animation-delay: 2.8s;
-  animation-delay: 2.8s;
-}
-.skills-bar-container li .bar-container #progress-angular {
-  -webkit-animation-name: progress-angular;
-  animation-name: progress-angular;
-  -webkit-animation-delay: 3.5s;
-  animation-delay: 3.5s;
-}
-
-.progressred {
-  background-color: #c0392b;
-}
-
-.progressblue {
-  background-color: #1199ff;
-}
-
-.progresspurple {
-  background-color: #9b59b6;
-}
-
-.progressorange {
-  background-color: #ffa500;
-}
-
-.progressgreen {
-  background-color: #27ae60;
-}
-
-@-webkit-keyframes progress-html {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 100%;
-  }
-}
-@-webkit-keyframes progress-css {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 90%;
-  }
-}
-@-webkit-keyframes progress-javascript {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 70%;
-  }
-}
-@-webkit-keyframes progress-php {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 55%;
-  }
-}
-@-webkit-keyframes progress-angular {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 65%;
-  }
-}
-@-moz-keyframes progress-html {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 100%;
-  }
-}
-@-moz-keyframes progress-css {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 90%;
-  }
-}
-@-moz-keyframes progress-javascript {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 70%;
-  }
-}
-@-moz-keyframes progress-php {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 55%;
-  }
-}
-@-moz-keyframes progress-angular {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 65%;
-  }
-}
-@keyframes progress-html {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 100%;
-  }
-}
-@keyframes progress-css {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 90%;
-  }
-}
-@keyframes progress-javascript {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 70%;
-  }
-}
-@keyframes progress-php {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 55%;
-  }
-}
-@keyframes progress-angular {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 65%;
-  }
-}
