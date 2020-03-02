@@ -152,24 +152,28 @@
   animation-delay: 4.2s
 }
 
-.progressred {
-  background-color: #c0392b;
+.progress-red {
+  background-color: #FF0000;
 }
 
-.progressblue {
-  background-color: #1199ff;
+.progress-blue {
+  background-color: #4169E1;
 }
 
-.progresspurple {
-  background-color: #9b59b6;
+.progress-yellow {
+  background-color: #FFD700;
 }
 
-.progressorange {
-  background-color: #ffa500;
+.progress-purple {
+  background-color: #77448b;
 }
 
-.progressgreen {
-  background-color: #27ae60;
+.progress-orange {
+  background-color: #EC6F15;
+}
+
+.progress-green {
+  background-color: #20968b;
 }
 
 @-webkit-keyframes progress-html {
