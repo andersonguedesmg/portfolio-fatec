@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap');
+
 /* Skills */
 #skills {
   background-color: #141422;
@@ -11,7 +13,6 @@
   text-transform: uppercase;
   letter-spacing: 0.5px;
   padding-bottom: 5vh;
-  /* padding-top: 5vh; */
 }
 
 .skills-bar-container {
@@ -24,22 +25,34 @@
   transform: translate(-50%, -50%);
   list-style: none;
 }
+
 .skills-bar-container li {
   position: relative;
   width: 100%;
   padding: 5px;
   margin-bottom: 10px;
 }
+
 .skills-bar-container li .progressbar-title {
-  color: #FFFFFF;
+  color: #ffffff;
 }
+
 .skills-bar-container li .progressbar-title h3 {
   display: inline-block;
 }
+
 .skills-bar-container li .progressbar-title .percent {
   position: absolute;
-  right: 5px;
+  right: 2%;
+  top: 10%;
+  font-size: 0.9rem;
+  font-family: "Poppins";
 }
+
+.skills-bar-container li .progressbar-title .skill-name {
+  font-family: "Red Hat Display";
+}
+
 .skills-bar-container li .bar-container {
   background: #555;
   position: relative;
@@ -52,6 +65,7 @@
   -ms-border-radius: 5px;
   border-radius: 5px;
 }
+
 .skills-bar-container li .bar-container .progressbar {
   position: absolute;
   width: 0%;
@@ -142,26 +156,26 @@
   -webkit-animation-name: progress-photoshop;
   animation-name: progress-photoshop;
   -webkit-animation-delay: 4.2s;
-  animation-delay: 4.2s
+  animation-delay: 4.2s;
 }
 
 .skills-bar-container li .bar-container #progress-csharp {
   -webkit-animation-name: progress-csharp;
   animation-name: progress-csharp;
   -webkit-animation-delay: 4.2s;
-  animation-delay: 4.2s
+  animation-delay: 4.2s;
 }
 
 .progress-red {
-  background-color: #FF0000;
+  background-color: #ff0000;
 }
 
 .progress-blue {
-  background-color: #4169E1;
+  background-color: #4169e1;
 }
 
 .progress-yellow {
-  background-color: #FFD700;
+  background-color: #ffd700;
 }
 
 .progress-purple {
@@ -169,7 +183,7 @@
 }
 
 .progress-orange {
-  background-color: #EC6F15;
+  background-color: #ec6f15;
 }
 
 .progress-green {
