@@ -133,3 +133,67 @@ a:hover {
   font-size: 600%;
   color: #20968B;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* image-gallery */
+.image-gallery {
+  z-index: 9990;
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+}
+
+.image-card {
+  display: inline-block;
+  width: 31%;
+  margin: 1.5% 0 0 1.5%;
+  padding-top: 21%;
+  border-radius: 4px;
+  background-color: #FFF;
+  position: relative;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.4);
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.4);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.image-card:hover {
+  -webkit-box-shadow: 0 0 9px 0 #20968B;
+  box-shadow: 0 0 9px 0 #20968B;
+}
+
+.no-event {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: auto;
+  height: 100%;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 480px) {
+  .image-card {
+    width: 45%;
+    padding-top: 45%;
+    margin: 1.5%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .image-card {
+    width: 80%;
+    padding-top: 80%;
+    margin: 2% 10%;
+  }
+}
+/* image-gallery */
