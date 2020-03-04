@@ -146,54 +146,72 @@ a:hover {
 
 
 /* image-gallery */
-.image-gallery {
-  z-index: 9990;
-  width: 100%;
-  height: auto;
-  background-color: transparent;
+.gallery-image {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.image-card {
-  display: inline-block;
-  width: 31%;
-  margin: 1.5% 0 0 1.5%;
-  padding-top: 21%;
-  border-radius: 4px;
-  background-color: #FFF;
-  position: relative;
-  -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.4);
-  box-shadow: 0 0 5px 0 rgba(0,0,0,0.4);
+.gallery-image img {
+  height: 250px;
+  width: 350px;
+  transform: scale(1.0);
+  transition: transform 0.4s ease;
+}
+
+.img-box {
+  box-sizing: content-box;
+  margin: 10px;
+  height: 250px;
+  width: 350px;
   overflow: hidden;
+  display: inline-block;
+  color: white;
+  position: relative;
+  background-color: white;
+}
+
+.caption {
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+  opacity: 0.0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.transparent-box {
+  height: 250px;
+  width: 350px;
+  background-color:rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: background-color 0.3s ease;
+}
+
+.img-box:hover img { 
+  transform: scale(1.1);
+}
+
+.img-box:hover .transparent-box {
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+.img-box:hover .caption {
+  transform: translateY(-20px);
+  opacity: 1.0;
+}
+
+.img-box:hover {
   cursor: pointer;
 }
 
-.image-card:hover {
-  -webkit-box-shadow: 0 0 9px 0 #20968B;
-  box-shadow: 0 0 9px 0 #20968B;
+.caption > p:nth-child(2) {
+  font-size: 0.8em;
 }
 
-.no-event {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: auto;
-  height: 100%;
-  pointer-events: none;
-}
-
-@media screen and (max-width: 480px) {
-  .image-card {
-    width: 45%;
-    padding-top: 45%;
-    margin: 1.5%;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .image-card {
-    width: 80%;
-    padding-top: 80%;
-    margin: 2% 10%;
-  }
+.opacity-low {
+  opacity: 0.5;
 }
 /* image-gallery */
