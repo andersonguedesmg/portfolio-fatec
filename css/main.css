@@ -670,7 +670,7 @@ a:hover {
   font-size: 150%;
 }
 
-.text-contact {
+#contact .text-contact {
   color: #ffffff;
   padding-top: 1%;
   opacity: 0.8;
@@ -678,7 +678,7 @@ a:hover {
   letter-spacing: 0.8px;
 }
 
-.text-test {
+#contact .text {
   color: #ffffff;
   opacity: 0.7;
   font-family: "Red Hat Display", sans-serif;
@@ -686,12 +686,12 @@ a:hover {
   letter-spacing: 0.8px;
 }
 
-/* Teste */
-#test {
+/* Characteristics and Interests */
+#interests {
   background-color: #262633;
 }
 
-#test .title-section {
+#interests .title-section {
   display: flex;
   justify-content: center;
   color: #20968b;
@@ -700,6 +700,14 @@ a:hover {
   letter-spacing: 0.5px;
   padding-bottom: 5vh;
   /* padding-top: 5vh; */
+}
+
+#interests .text-item {
+  color: #ffffff;
+  padding-top: 1%;
+  opacity: 0.8;
+  font-size: 1rem;
+  letter-spacing: 0.8px;
 }
 
 /* ===================================================================================================== */
