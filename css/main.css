@@ -679,6 +679,8 @@ a:hover {
 }
 
 #contact .text {
+  display: flex;
+  justify-content: center;
   color: #ffffff;
   opacity: 0.7;
   font-family: "Red Hat Display", sans-serif;
