@@ -319,6 +319,14 @@ header.header .intro-text {
   /* padding-top: 5vh; */
 }
 
+#about .text-item {
+  color: #ffffff;
+  padding-top: 1%;
+  opacity: 0.8;
+  font-size: 1rem;
+  letter-spacing: 0.8px;
+}
+
 /* Portfolio */
 #portfolio {
   background-color: #141422;
