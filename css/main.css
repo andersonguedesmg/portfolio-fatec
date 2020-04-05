@@ -348,7 +348,7 @@ header.header .intro-text {
   justify-content: center;
 }
 
-.container .card {
+#portfolio .container .card {
   background-color: #262633;
   width: 19rem;
   height: 20rem;
@@ -362,7 +362,7 @@ header.header .intro-text {
   border-top-right-radius: 0.625rem;
 }
 
-.container .card:hover {
+#portfolio .container .card:hover {
   transform: translateY(-0.6rem);
 }
 
