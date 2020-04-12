@@ -8,20 +8,7 @@
   --black: #000000;
   --green: #20968b;
   --purple: #77448b;
-
-  --red: #ed1c24;
-  --blue: #2a579a;
-
-  --light-gray: #f2f2f2;
-  --dark-gray: #666666;
-  --light-green: rgba(30, 152, 29, 0.25);
-  --dark-green: #1da83f;
-  --dark-yellow: #f9a825;
-  --light-orange: rgba(249, 168, 37, 0.25);
-  --dark-orange: #f57c00;
-  --dark-red: #dc3545;
-  --light-blue: #0077db;
-  --dark-blue: #2a579a;
+  --alpha-purple: #77448b70;
 }
 
 /* Common */
