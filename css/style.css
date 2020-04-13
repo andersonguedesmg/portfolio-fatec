@@ -1,15 +1,15 @@
-/* Descriptive Memorial */
+/* Descriptive Memorial - Common */
 #descriptive-memorial-odd {
-  background-color: #141422;
+  background-color: var(--dark-blue);
 }
 
 #descriptive-memorial-even {
-  background-color: #262633;
+  background-color: var(--dark-gray);
 }
 
 #descriptive-memorial-even,
 #descriptive-memorial-odd {
-  color: #ffffff;
+  color: var(--white);
   font-family: "Red Hat Display", sans-serif;
   font-size: 1rem;
   letter-spacing: 0.8px;
@@ -20,7 +20,7 @@
 #descriptive-memorial-odd .title-section {
   display: flex;
   justify-content: center;
-  color: #20968b;
+  color: var(--green);
   font: Bold 28px "Red Hat Display";
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -34,7 +34,7 @@
 }
 
 #portfolio-page .container .card {
-  background-color: #262633;
+  background-color: var(--dark-gray);
   width: 19rem;
   height: 20rem;
   cursor: pointer;
@@ -52,7 +52,7 @@
 }
 
 .container .centralize .card-title {
-  color: #ffffff;
+  color: var(--white);
   font-family: "Red Hat Display", sans-serif;
   font-size: 1.2rem;
   letter-spacing: 0.8px;
@@ -60,12 +60,12 @@
 }
 
 .container .card:hover .card-title {
-  color: #20968b;
+  color: var(--green);
   font-weight: 600;
 }
 
 .container .centralize .card-text {
-  color: #ffffff;
+  color: var(--white);
   font-family: "Poppins", sans-serif;
   font-size: 0.8rem;
   opacity: 0.8;
@@ -81,78 +81,46 @@
 .container .text-card-more {
   display: flex;
   justify-content: center;
-  color: #ffffff;
+  color: var(--white);
   font-size: 2.3rem;
   font-family: "Poppins", sans-serif;
 }
 
 .container .card:hover .text-card-more {
-  color: #20968b;
+  color: var(--green);
 }
 
 a:hover {
   text-decoration: none;
 }
 
-/* Introduction - myLibrary */
-.introduction {
-}
-
-.introduction__image {
-  max-width: 65%;
-}
-
-.introduction__text {
-}
-
-/* Process - myLibrary */
-.accordion .card {
-  background-color: #262633;
-  cursor: pointer;
-  border-radius: 0.625rem;
-}
-
-/* ===================================================================================================== */
-/* portfolio page */
-
 .row-padding {
   padding-top: 6vh;
 }
 
-.ENZO {
-  color: #ffffff;
-  font-family: "Red Hat Display", sans-serif;
-  font-size: 1rem;
-  letter-spacing: 0.8px;
-  font-weight: 500;
-}
-
 .callout {
   padding: 1%;
-  border-left: solid rgb(33, 33, 33) 5px;
+  border-left: solid 5px var(--black);
   border-radius: 3px;
   margin: 1.5%;
 }
 
 .callout-dark {
-  background-color: #141422;
-  /* border-left-color: rgb(78, 203, 105); */
-  border-left-color: #530082;
+  background-color: var(--dark-blue);
+  border-left-color: var(--dark-purple);
 }
 
 .callout-light {
-  background-color: #262633;
-  /* border-left-color: rgb(64, 97, 71); */
-  border-left-color: #530082;
+  background-color: var(--dark-gray);
+  border-left-color: var(--dark-purple);
 }
 
 .languageIcons {
   font-size: 600%;
-  color: #20968b;
+  color: var(--green);
 }
 
-/* ===================================================================================================== */
-/* image-gallery */
+/* Images */
 .gallery-image {
   padding: 20px;
   display: flex;
@@ -174,9 +142,9 @@ a:hover {
   width: 350px;
   overflow: hidden;
   display: inline-block;
-  color: white;
+  color: var(--white);
   position: relative;
-  background-color: white;
+  background-color: var(--white);
 }
 
 .caption {
@@ -222,12 +190,7 @@ a:hover {
   opacity: 0.5;
 }
 
-
-
-
-
-
-/* Override bootstrap column paddings */
+/* Image Gallery */
 .tz-gallery .row > div {
   padding: 2px;
 }
@@ -257,8 +220,8 @@ a:hover {
   width: 100%;
   height: 100%;
   opacity: 0;
-  background-color: #77448b70;
-  content: '';
+  background-color: var(--alpha-purple);
+  content: "";
   transition: 0.4s;
 }
 
@@ -271,8 +234,28 @@ a:hover {
   background-color: transparent !important;
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   body {
-      padding: 0;
+    padding: 0;
   }
+}
+
+
+
+/* Introduction - myLibrary */
+.introduction {
+}
+
+.introduction__image {
+  max-width: 65%;
+}
+
+.introduction__text {
+}
+
+/* Process - myLibrary */
+.accordion .card {
+  background-color: var(--dark-gray);
+  cursor: pointer;
+  border-radius: 0.625rem;
 }

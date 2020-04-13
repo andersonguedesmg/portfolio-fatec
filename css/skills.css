@@ -1,14 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap');
-
-/* Skills */
 #skills {
-  background-color: #141422;
+  background-color: var(--dark-blue);
 }
 
 #skills .title-section {
   display: flex;
   justify-content: center;
-  color: #20968b;
+  color: var(--green);
   font: Bold 28px "Red Hat Display";
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -34,7 +31,7 @@
 }
 
 .skills-bar-container li .progressbar-title {
-  color: #ffffff;
+  color: var(--white);
 }
 
 .skills-bar-container li .progressbar-title h3 {
@@ -54,7 +51,7 @@
 }
 
 .skills-bar-container li .bar-container {
-  background: #555;
+  background: var(--dark-gray);
   position: relative;
   width: 100%;
   height: 5px;
@@ -167,27 +164,27 @@
 }
 
 .progress-red {
-  background-color: #ff0000;
+  background-color: var(--red);
 }
 
 .progress-blue {
-  background-color: #4169e1;
+  background-color: var(--blue);
 }
 
 .progress-yellow {
-  background-color: #ffd700;
+  background-color: var(--yellow);
 }
 
 .progress-purple {
-  background-color: #77448b;
+  background-color: var(--purple);
 }
 
 .progress-orange {
-  background-color: #ec6f15;
+  background-color: var(--orange);
 }
 
 .progress-green {
-  background-color: #20968b;
+  background-color: var(--green);
 }
 
 @-webkit-keyframes progress-html {

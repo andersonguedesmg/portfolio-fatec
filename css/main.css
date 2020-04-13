@@ -9,6 +9,16 @@
   --green: #20968b;
   --purple: #77448b;
   --alpha-purple: #77448b70;
+  --dark-purple: #530082;
+  --dark-blue: #141422;
+  --dark-gray: #262633;
+  --gray: #777777;
+  --grayish: #e9ecef;
+  --light-gray: #aaaaaa;
+  --red: #ff0000;
+  --blue: #4169e1;
+  --yellow: #ffd700;
+  --orange: #ec6f15;
 }
 
 /* Common */
@@ -21,7 +31,7 @@ p {
 }
 
 a:hover {
-  color: #77448b;
+  color: var(--purple);
 }
 
 .page-section {
@@ -37,17 +47,17 @@ a:hover {
 /* ScrollBar */
 #page-top::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
-  background-color: #f5f5f5;
+  background-color: var(--white);
   border-radius: 10px;
 }
 
 #page-top::-webkit-scrollbar {
   width: 10px;
-  background-color: #f5f5f5;
+  background-color: var(--white);
 }
 
 #page-top::-webkit-scrollbar-thumb {
-  background-color: #000000;
+  background-color: var(--black);
 }
 
 /* ButtonScrollToTop */
@@ -58,8 +68,8 @@ a:hover {
   overflow: hidden;
   text-align: center;
   z-index: 99999999;
-  background-color: #20968b;
-  color: #ffffff;
+  background-color: var(--green);
+  color: var(--white);
   width: 50px;
   height: 48px;
   line-height: 48px;
@@ -78,8 +88,8 @@ a:hover {
 }
 
 .scroll-top-wrapper:hover {
-  background-color: #ffffff;
-  color: #20968b;
+  background-color: var(--white);
+  color: var(--green);
 }
 
 .scroll-top-wrapper.show {
@@ -102,15 +112,15 @@ a:hover {
   right: 0;
   padding: 13px;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--white);
   border: 0;
-  background-color: #77448b;
+  background-color: var(--purple);
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 #mainNav .navbar-brand {
-  color: #77448b;
+  color: var(--purple);
   font-family: "Kaushan Script", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -119,7 +129,7 @@ a:hover {
 #mainNav .navbar-brand:active,
 #mainNav .navbar-brand:focus,
 #mainNav .navbar-brand:hover {
-  color: #77448b;
+  color: var(--purple);
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -127,14 +137,14 @@ a:hover {
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: #ffffff;
+  color: var(--white);
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #77448b;
+  color: var(--purple);
 }
 
 @media (min-width: 992px) {
@@ -158,7 +168,7 @@ a:hover {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #000000;
+    background-color: var(--black);
   }
 
   #mainNav.navbar-shrink .navbar-brand {
@@ -171,8 +181,8 @@ a:hover {
 .footer {
   padding: 25px 0;
   text-align: center;
-  background-color: #000000;
-  color: #ffffff;
+  background-color: var(--black);
+  color: var(--white);
 }
 
 .footer span.copyright {
@@ -203,24 +213,24 @@ ul.social-buttons li a {
   width: 50px;
   height: 50px;
   transition: all 0.3s;
-  color: #20968b;
+  color: var(--green);
   border-radius: 100%;
   outline: none;
-  background-color: #ffffff;
+  background-color: var(--white);
 }
 
 ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
-  background-color: #77448b;
-  color: #ffffff;
+  background-color: var(--purple);
+  color: var(--white);
 }
 
 /* Header */
 header.header {
   text-align: center;
-  color: #ffffff;
-  background-color: #141422;
+  color: var(--white);
+  background-color: var(--dark-blue);
   /* background-image: url("../assets/images/header-bg.jpg"); */
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -249,19 +259,19 @@ header.header .intro-text {
 
 .txt-name {
   font-size: 3.5rem;
-  color: #20968b;
+  color: var(--green);
   font-family: "Red Hat Display";
 }
 
 .txt-items {
   font-size: 2rem;
-  color: #aaa;
+  color: var(--light-gray);
   font-family: "Poppins";
 }
 
 /* Cursor */
 .txt-type > .txt {
-  border-right: 0.2rem solid #777;
+  border-right: 0.2rem solid var(--gray);
 }
 
 @media (min-width: 1200px) {
@@ -292,22 +302,21 @@ header.header .intro-text {
 
 /* About */
 #about {
-  background-color: #262633;
+  background-color: var(--dark-gray);
 }
 
 #about .title-section {
   display: flex;
   justify-content: center;
-  color: #20968b;
+  color: var(--green);
   font: Bold 28px "Red Hat Display";
   text-transform: uppercase;
   letter-spacing: 0.5px;
   padding-bottom: 5vh;
-  /* padding-top: 5vh; */
 }
 
 #about .text-item {
-  color: #ffffff;
+  color: var(--white);
   padding-top: 1%;
   opacity: 0.8;
   font-size: 1rem;
@@ -316,18 +325,17 @@ header.header .intro-text {
 
 /* Portfolio */
 #portfolio {
-  background-color: #141422;
+  background-color: var(--dark-blue);
 }
 
 #portfolio .title-section {
   display: flex;
   justify-content: center;
-  color: #20968b;
+  color: var(--green);
   font: Bold 28px "Red Hat Display";
   text-transform: uppercase;
   letter-spacing: 0.5px;
   padding-bottom: 5vh;
-  /* padding-top: 5vh; */
 }
 
 .container .centralize {
@@ -336,7 +344,7 @@ header.header .intro-text {
 }
 
 #portfolio .container .card {
-  background-color: #262633;
+  background-color: var(--dark-gray);
   width: 19rem;
   height: 20rem;
   cursor: pointer;
@@ -354,7 +362,7 @@ header.header .intro-text {
 }
 
 .container .centralize .card-title {
-  color: #ffffff;
+  color: var(--white);
   font-family: "Red Hat Display", sans-serif;
   font-size: 1.2rem;
   letter-spacing: 0.8px;
@@ -362,12 +370,12 @@ header.header .intro-text {
 }
 
 .container .card:hover .card-title {
-  color: #20968b;
+  color: var(--green);
   font-weight: 600;
 }
 
 .container .centralize .card-text {
-  color: #ffffff;
+  color: var(--white);
   font-family: "Poppins", sans-serif;
   font-size: 0.8rem;
   opacity: 0.8;
@@ -376,7 +384,7 @@ header.header .intro-text {
 
 .container .centralize .card-icons {
   margin: 0;
-  color: #20968b;
+  color: var(--green);
   font-size: 120%;
 }
 
@@ -393,13 +401,13 @@ header.header .intro-text {
 .container .text-card-more {
   display: flex;
   justify-content: center;
-  color: #ffffff;
+  color: var(--white);
   font-size: 2.3rem;
   font-family: "Poppins", sans-serif;
 }
 
 .container .card:hover .text-card-more {
-  color: #20968b;
+  color: var(--green);
 }
 
 a:hover {
@@ -408,18 +416,17 @@ a:hover {
 
 /* Curriculum */
 #curriculum {
-  background-color: #262633;
+  background-color: var(--dark-gray);
 }
 
 #curriculum .title-section {
   display: flex;
   justify-content: center;
-  color: #20968b;
+  color: var(--green);
   font: Bold 28px "Red Hat Display";
   text-transform: uppercase;
   letter-spacing: 0.5px;
   padding-bottom: 5vh;
-  /* padding-top: 5vh; */
 }
 
 .timeline {
@@ -436,7 +443,7 @@ a:hover {
   width: 2px;
   margin-left: -1.5px;
   content: "";
-  background-color: #e9ecef;
+  background-color: var(--grayish);
 }
 
 .timeline > li {
@@ -485,10 +492,10 @@ a:hover {
   height: 80px;
   margin-left: 0;
   text-align: center;
-  color: #ffffff;
-  border: 7px solid #e9ecef;
+  color: var(--white);
+  border: 7px solid var(--grayish);
   border-radius: 100%;
-  background-color: #77448b;
+  background-color: var(--purple);
 }
 
 .timeline > li .timeline-image h4 {
@@ -523,7 +530,7 @@ a:hover {
 
 .timeline .timeline-heading h4 {
   margin-top: 0;
-  color: #20968b;
+  color: var(--green);
   font-family: "Red Hat Display", sans-serif;
   font-size: 1.2rem;
   letter-spacing: 0.8px;
@@ -532,7 +539,7 @@ a:hover {
 
 .timeline .timeline-heading h4.subheading {
   text-transform: none;
-  color: #20968b;
+  color: var(--green);
   font-family: "Red Hat Display", sans-serif;
   font-size: 1.2rem;
   letter-spacing: 0.8px;
@@ -545,7 +552,7 @@ a:hover {
 }
 
 .timeline .text-description {
-  color: #ffffff !important;
+  color: var(--white) !important;
   font-family: "Poppins", sans-serif;
   font-size: 0.8rem;
   opacity: 0.8;
@@ -641,18 +648,17 @@ a:hover {
 
 /* Contact */
 #contact {
-  background-color: #141422;
+  background-color: var(--dark-blue);
 }
 
 #contact .title-section {
   display: flex;
   justify-content: center;
-  color: #20968b;
+  color: var(--green);
   font: Bold 28px "Red Hat Display";
   text-transform: uppercase;
   letter-spacing: 0.5px;
   padding-bottom: 5vh;
-  /* padding-top: 5vh; */
 }
 
 .contact {
@@ -661,12 +667,12 @@ a:hover {
 }
 
 .icon-contact {
-  color: #20968b;
+  color: var(--green);
   font-size: 150%;
 }
 
 #contact .text-contact {
-  color: #ffffff;
+  color: var(--white);
   padding-top: 1%;
   opacity: 0.8;
   font-size: 1rem;
@@ -676,7 +682,7 @@ a:hover {
 #contact .text {
   display: flex;
   justify-content: center;
-  color: #ffffff;
+  color: var(--white);
   opacity: 0.7;
   font-family: "Red Hat Display", sans-serif;
   font-size: 1rem;
@@ -685,22 +691,21 @@ a:hover {
 
 /* Characteristics and Interests */
 #interests {
-  background-color: #262633;
+  background-color: var(--dark-gray);
 }
 
 #interests .title-section {
   display: flex;
   justify-content: center;
-  color: #20968b;
+  color: var(--green);
   font: Bold 28px "Red Hat Display";
   text-transform: uppercase;
   letter-spacing: 0.5px;
   padding-bottom: 5vh;
-  /* padding-top: 5vh; */
 }
 
 #interests .text-item {
-  color: #ffffff;
+  color: var(--white);
   padding-top: 1%;
   opacity: 0.8;
   font-size: 1rem;
@@ -710,21 +715,19 @@ a:hover {
 /* ===================================================================================================== */
 
 /* portfolio page */
-
 #portfolio-page {
   padding-top: 20vh;
-  background-color: #141422;
+  background-color: var(--dark-blue);
 }
 
 #portfolio-page .title-section {
   display: flex;
   justify-content: center;
-  color: #20968b;
+  color: var(--green);
   font: Bold 28px "Red Hat Display";
   text-transform: uppercase;
   letter-spacing: 0.5px;
   padding-bottom: 5vh;
-  /* padding-top: 5vh; */
 }
 
 .row-padding {
