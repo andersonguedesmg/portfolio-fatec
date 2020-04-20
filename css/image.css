@@ -55,10 +55,6 @@
   opacity: 1;
 }
 
-.img-box:hover {
-  cursor: pointer;
-}
-
 .caption > p:nth-child(2) {
   font-size: 0.8em;
 }

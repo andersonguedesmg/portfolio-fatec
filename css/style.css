@@ -99,10 +99,21 @@ a:hover {
 }
 
 .callout {
-  padding: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   border-left: solid 5px var(--black);
   border-radius: 3px;
-  margin: 1.5%;
+  margin: 10px;
+  height: 250px;
+  width: 350px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.callout__text {
+  display: flex;
+  align-items: center;
 }
 
 .callout-dark {
@@ -120,7 +131,7 @@ a:hover {
   color: var(--green);
 }
 
-.summary__title{
+.summary__title {
   padding-top: 13vh;
 }
 
