@@ -24,6 +24,8 @@
 /* Common */
 body {
   overflow-x: hidden;
+  text-align: justify;
+
 }
 
 p {
@@ -35,7 +37,7 @@ a:hover {
 }
 
 .page-section {
-  padding: 5vh 0 7vh 0;
+  padding: 2vh 0 7vh 0;
 }
 
 @media (min-width: 768px) {
