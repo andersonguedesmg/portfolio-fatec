@@ -363,11 +363,11 @@ header.header .intro-text {
 }
 
 /* About */
-#about {
+#site {
   background-color: var(--dark-gray);
 }
 
-#about .title-section {
+#site .title-section {
   display: flex;
   justify-content: center;
   color: var(--green);
@@ -377,7 +377,7 @@ header.header .intro-text {
   padding-bottom: 5vh;
 }
 
-#about .text-item {
+#site .text-item {
   color: var(--white);
   padding-top: 1%;
   opacity: 0.8;
@@ -730,7 +730,7 @@ a:hover {
 
 .icon-contact {
   color: var(--green);
-  font-size: 150%;
+  font-size: 250%;
 }
 
 #contact .text-contact {
