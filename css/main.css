@@ -232,7 +232,7 @@ header.header {
   text-align: center;
   color: var(--white);
   background-color: var(--dark-blue);
-  /* background-image: url("../assets/images/header-bg.jpg"); */
+  background-image: url("../assets/images/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
