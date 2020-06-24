@@ -464,7 +464,7 @@ header.header .intro-text {
   display: flex;
   justify-content: center;
   color: var(--white);
-  font-size: 2.3rem;
+  font-size: 2rem;
   font-family: "Poppins", sans-serif;
 }
 
