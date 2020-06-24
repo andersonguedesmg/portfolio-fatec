@@ -1,4 +1,13 @@
-/* Descriptive Memorial - Common */
+/* Common */
+#mainNav.navbar-shrink .nav-link{
+  color: var(--purple) !important;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  padding: 1.1em 1em !important;
+  color: transparent;
+}
+
 #descriptive-memorial-odd {
   background-color: var(--dark-blue);
 }
@@ -132,11 +141,13 @@ a:hover {
 }
 
 .summary__title {
-  padding-top: 13vh;
+  padding-top: 15vh;
 }
 
 .summary__text {
-  padding-top: 5vh;
+  padding-top: 9vh;
+  padding-left: 3.5vw;
+  padding-right: 1.5vw;
 }
 
 .summary__image {
@@ -163,9 +174,6 @@ a:hover {
   max-width: 65%;
 }
 
-/* Process - myLibrary */
-.accordion .card {
-  background-color: var(--dark-gray);
-  cursor: pointer;
-  border-radius: 0.625rem;
+.result-image {
+  width: 100%;
 }
