@@ -114,73 +114,40 @@ a:hover {
   padding-top: 5vh;
 }
 
-.callout {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  border-left: solid 5px var(--black);
-  border-radius: 3px;
-  margin: 10px;
-  height: 250px;
-  width: 350px;
-  padding-right: 20px;
-  padding-left: 20px;
-}
-
-.callout__text {
-  display: flex;
-  align-items: center;
-}
-
-.callout-dark {
-  background-color: var(--dark-blue);
-  border-left-color: var(--dark-purple);
-}
-
-.callout-light {
-  background-color: var(--dark-gray);
-  border-left-color: var(--dark-purple);
-}
-
-.languageIcons {
-  font-size: 600%;
-  color: var(--green);
-}
-
-.summary__title {
+.project-title {
   padding-top: 15vh;
+  padding-bottom: 2vh;
 }
 
-.summary__text {
-  padding-top: 9vh;
-  padding-left: 3.5vw;
-  padding-right: 1.5vw;
-}
-
-.summary__image {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.summary__image img {
-  height: 250px;
-  width: 350px;
-}
-
-.summary__box {
-  box-sizing: content-box;
-  height: 250px;
-  width: 350px;
-  overflow: hidden;
-  display: inline-block;
-  position: relative;
-}
-
-.introduction__image {
-  max-width: 65%;
-}
-
-.result-image {
+.project-image {
   width: 100%;
+}
+
+.project-item {
+  color: var(--white);
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+  padding-bottom: 1vh;
+}
+
+.project-text {
+  color: var(--white) !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+  opacity: 0.8;
+  letter-spacing: 0.5px;
+}
+
+.project-badge {
+  background-color: var(--green);
+  color: var(--black);
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+}
+
+.project-badge__first {
+  margin-left: 0rem;
 }
