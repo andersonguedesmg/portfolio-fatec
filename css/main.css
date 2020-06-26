@@ -373,6 +373,7 @@ header.header .intro-text {
   text-transform: uppercase;
   letter-spacing: 0.5px;
   padding-bottom: 5vh;
+  padding-top: 5vh;
 }
 
 #site .text-item {
@@ -381,6 +382,16 @@ header.header .intro-text {
   opacity: 0.8;
   font-size: 1rem;
   letter-spacing: 0.8px;
+}
+
+.about-col {
+  padding-left: 15vw;
+  padding-right: 15vw;
+}
+
+.text-about {
+  display: flex;
+  justify-content: center;
 }
 
 /* Recent Projects */
@@ -395,7 +406,8 @@ header.header .intro-text {
   font: Bold 28px "Red Hat Display";
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  padding-bottom: 5vh;
+  padding-bottom: 7vh;
+  padding-top: 5vh;
 }
 
 .container .centralize {
@@ -494,7 +506,8 @@ a:hover {
   font: Bold 28px "Red Hat Display";
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  padding-bottom: 5vh;
+  padding-bottom: 7vh;
+  padding-top: 5vh;
 }
 
 .timeline {
@@ -727,6 +740,18 @@ a:hover {
   text-transform: uppercase;
   letter-spacing: 0.5px;
   padding-bottom: 5vh;
+  padding-top: 5vh;
+}
+
+.card-badge-skills {
+  padding: 0.7rem;
+  margin-bottom: 0.7rem;
+  font-size: 0.8rem;
+}
+
+.badge-col {
+  display: flex;
+  justify-content: center;
 }
 
 /* Contact */
@@ -742,6 +767,7 @@ a:hover {
   text-transform: uppercase;
   letter-spacing: 0.5px;
   padding-bottom: 5vh;
+  padding-top: 5vh;
 }
 
 .contact {
@@ -771,5 +797,3 @@ a:hover {
   font-size: 1rem;
   letter-spacing: 0.8px;
 }
-
-/* ===================================================================================================== */
