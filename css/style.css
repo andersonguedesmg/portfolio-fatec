@@ -1,5 +1,5 @@
 /* Common */
-#mainNav.navbar-shrink .nav-link{
+#mainNav.navbar-shrink .nav-link {
   color: var(--purple) !important;
   display: block !important;
 }
@@ -10,10 +10,29 @@
 }
 
 nav .nav-item .nav-link:hover {
-cursor: default;
+  cursor: default;
 }
 
 /* Portfolio Page */
+#portfolio-page {
+  padding-top: 20vh;
+  background-color: var(--dark-blue);
+}
+
+#portfolio-page .title-section {
+  display: flex;
+  justify-content: center;
+  color: var(--green);
+  font: Bold 28px "Red Hat Display";
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding-bottom: 5vh;
+}
+
+.row-padding {
+  padding-top: 7vh;
+}
+
 .container .centralize {
   display: flex;
   justify-content: center;
@@ -123,6 +142,10 @@ a:hover {
   width: 100%;
 }
 
+.project-image-multiple {
+  padding-bottom: 5vh;
+}
+
 .project-item {
   color: var(--white);
   font-family: "Red Hat Display", sans-serif;
@@ -138,6 +161,19 @@ a:hover {
   font-size: 0.8rem;
   opacity: 0.8;
   letter-spacing: 0.5px;
+}
+
+.project-screen-name {
+  text-align: right !important;
+  color: var(--white) !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+  opacity: 0.8;
+  letter-spacing: 0.5px;
+}
+
+.image-text {
+  padding-bottom: 1vh;
 }
 
 .project-badge {

@@ -141,37 +141,6 @@ $(function () {
 })
 
 // =====================================================================================================
-// ProgressBar
-var lang = {
-  "html": "85%",
-  "css": "80%",
-  "bootstrap": "80%",
-  "angular": "70%",
-  "adobexd": "65%",
-  "figma": "65%",
-  "materialize": "65%",
-  "github": "60%",
-  "typescript": "60%",
-  "sqlserver": "60%",
-  "photoshop": "55%",
-  "csharp": "50%",
-};
-
-var multiply = 4;
-
-$.each(lang, function (language, pourcent) {
-
-  var delay = 700;
-
-  setTimeout(function () {
-    $('#' + language + '-pourcent').html(pourcent);
-  }, delay * multiply);
-
-  multiply++;
-
-});
-
-// =====================================================================================================
 $(function () {
   $('.scroll-down').click(function () {
     $('html, body').animate({ scrollTop: $('section.ok').offset().top }, 'slow');
