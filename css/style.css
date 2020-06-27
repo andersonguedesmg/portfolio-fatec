@@ -187,3 +187,7 @@ a:hover {
 .project-badge__first {
   margin-left: 0rem;
 }
+
+.project-badge__bottom {
+  margin-top: 0.5rem;
+}
