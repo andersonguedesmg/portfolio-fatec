@@ -3,6 +3,6 @@ Portfólio desenvolvido para disciplina **Projeto de Trabalho de Graduação** d
 
 Site: [Portfólio](http://andersonguedes.com.br/)
 
-- Bootstrap v4.3.1 - https://getbootstrap.com/
-- Font Awesome Free 5.10.2 by @fontawesome - https://fontawesome.com
-- jQuery JavaScript Library v3.4.1 - https://jquery.com/
+- Bootstrap v4.5.3 - https://getbootstrap.com/
+- Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
+- jQuery JavaScript Library v3.5.1 - https://jquery.com/
