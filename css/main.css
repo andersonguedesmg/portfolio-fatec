@@ -94,3 +94,234 @@
 .fullscreen__footer {
   padding-top: 4rem;
 }
+
+@media only screen and (min-width: 801px) and (max-width: 1024px) {
+  .fullscreen__content {
+    background-image: linear-gradient(to top left, #262633 37%, #141422 37%);
+  }
+
+  .fullscreen__hello {
+    font-size: 1.5rem;
+    padding-top: 12vh;
+  }
+
+  .fullscreen__name {
+    font-size: 3.1rem;
+  }
+
+  .fullscreen__text {
+    font-size: 1rem;
+  }
+
+  .fullscreen__row-image {
+    padding-top: 15rem;
+  }
+
+  .fullscreen__image {
+    font-size: 4.5rem;
+    padding-right: 9rem;
+  }
+
+  .fullscreen__icon {
+    font-size: 1rem;
+    padding-right: 1.2rem;
+  }
+
+  .fullscreen__nav {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  .fullscreen__content {
+    background-image: linear-gradient(to top left, #262633 36%, #141422 36%);
+  }
+
+  .fullscreen__hello {
+    font-size: 2rem;
+    padding-top: 12vh;
+  }
+
+  .fullscreen__name {
+    font-size: 3.5rem;
+  }
+
+  .fullscreen__text {
+    font-size: 1.2rem;
+  }
+
+  .fullscreen__row-image {
+    padding-top: 10rem;
+  }
+
+  .fullscreen__image {
+    font-size: 5.5rem;
+    padding-right: 10rem;
+  }
+
+  .fullscreen__icon {
+    font-size: 1.2rem;
+    padding-right: 1.2rem;
+  }
+
+  .fullscreen__nav {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+  }
+}
+
+@media only screen and (min-width: 1281px) and (max-width: 1366px) {
+}
+
+@media only screen and (min-width: 1367px) and (max-width: 1440px) {
+  .fullscreen__content {
+    background-image: linear-gradient(to top left, #262633 37%, #141422 37%);
+  }
+
+  .fullscreen__hello {
+    font-size: 3rem;
+    padding-top: 12vh;
+  }
+
+  .fullscreen__name {
+    font-size: 5rem;
+  }
+
+  .fullscreen__text {
+    font-size: 1.5rem;
+  }
+
+  .fullscreen__row-image {
+    padding-top: 13rem;
+  }
+
+  .fullscreen__image {
+    font-size: 6.5rem;
+    padding-right: 12rem;
+  }
+
+  .fullscreen__icon {
+    font-size: 1.5rem;
+    padding-right: 1.2rem;
+  }
+
+  .fullscreen__nav {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+  }
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1600px) {
+  .fullscreen__content {
+    background-image: linear-gradient(to top left, #262633 38%, #141422 38%);
+  }
+
+  .fullscreen__hello {
+    font-size: 3rem;
+    padding-top: 12vh;
+  }
+
+  .fullscreen__name {
+    font-size: 5rem;
+  }
+
+  .fullscreen__text {
+    font-size: 1.5rem;
+  }
+
+  .fullscreen__row-image {
+    padding-top: 13rem;
+  }
+
+  .fullscreen__image {
+    font-size: 7rem;
+    padding-right: 11.5rem;
+  }
+
+  .fullscreen__icon {
+    font-size: 1.5rem;
+    padding-right: 1.2rem;
+  }
+
+  .fullscreen__nav {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+  }
+}
+
+@media only screen and (min-width: 1601px) and (max-width: 1824px) {
+  .fullscreen__content {
+    background-image: linear-gradient(to top left, #262633 37%, #141422 37%);
+  }
+
+  .fullscreen__hello {
+    font-size: 3rem;
+    padding-top: 12vh;
+  }
+
+  .fullscreen__name {
+    font-size: 5rem;
+  }
+
+  .fullscreen__text {
+    font-size: 1.5rem;
+  }
+
+  .fullscreen__row-image {
+    padding-top: 20rem;
+  }
+
+  .fullscreen__image {
+    font-size: 7rem;
+    padding-right: 11.5rem;
+  }
+
+  .fullscreen__icon {
+    font-size: 1.5rem;
+    padding-right: 1.2rem;
+  }
+
+  .fullscreen__nav {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+  }
+}
+
+@media only screen and (min-width: 1825px) and (max-width: 1920px) {
+  .fullscreen__content {
+    background-image: linear-gradient(to top left, #262633 37%, #141422 37%);
+  }
+
+  .fullscreen__hello {
+    font-size: 3rem;
+    padding-top: 12vh;
+  }
+
+  .fullscreen__name {
+    font-size: 5rem;
+  }
+
+  .fullscreen__text {
+    font-size: 1.5rem;
+  }
+
+  .fullscreen__row-image {
+    padding-top: 21rem;
+  }
+
+  .fullscreen__image {
+    font-size: 7rem;
+    padding-right: 11.5rem;
+  }
+
+  .fullscreen__icon {
+    font-size: 1.5rem;
+    padding-right: 1.2rem;
+  }
+
+  .fullscreen__nav {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+  }
+}
