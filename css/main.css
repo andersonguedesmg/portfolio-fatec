@@ -95,7 +95,210 @@
   padding-top: 4rem;
 }
 
-@media only screen and (min-width: 801px) and (max-width: 1024px) {
+@media only screen and (max-width: 320px) {
+  .fullscreen__content {
+    background-image: linear-gradient(to top left, #262633 50%, #141422 50%);
+  }
+
+  .fullscreen__hello {
+    font-size: 1.3rem;
+    padding-top: 6vh;
+    text-align: center;
+  }
+
+  .fullscreen__name {
+    font-size: 1.7rem;
+    padding-top: 2vh;
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+
+  .fullscreen__text {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .fullscreen__row-image {
+    padding-top: 3rem;
+  }
+
+  .fullscreen__image {
+    font-size: 3rem;
+    padding-right: 0rem;
+    float: none !important;
+    display: flex;
+    justify-content: center;
+  }
+
+  .fullscreen__icon {
+    font-size: 0.8rem;
+    padding-right: 1.2rem;
+  }
+
+  .fullscreen__nav {
+    font-size: 0.65rem;
+  }
+
+  .fullscreen__footer--col {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .fullscreen__content {
+    background-image: linear-gradient(to top left, #262633 50%, #141422 50%);
+  }
+
+  .fullscreen__hello {
+    font-size: 1.5rem;
+    padding-top: 6vh;
+    text-align: center;
+  }
+
+  .fullscreen__name {
+    font-size: 2rem;
+    padding-top: 2vh;
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+
+  .fullscreen__text {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .fullscreen__row-image {
+    padding-top: 5rem;
+  }
+
+  .fullscreen__image {
+    font-size: 4rem;
+    padding-right: 0rem;
+    float: none !important;
+    display: flex;
+    justify-content: center;
+  }
+
+  .fullscreen__icon {
+    font-size: 1rem;
+    padding-right: 1.2rem;
+  }
+
+  .fullscreen__nav {
+    font-size: 0.85rem;
+  }
+
+  .fullscreen__footer--col {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 595px) {
+}
+
+@media only screen and (min-width: 596px) and (max-width: 690px) {
+}
+
+@media only screen and (min-width: 691px) and (max-width: 800px) {
+  .fullscreen__content {
+    background-image: linear-gradient(to top left, #262633 50%, #141422 50%);
+  }
+
+  .fullscreen__hello {
+    font-size: 2rem;
+    padding-top: 10vh;
+    text-align: center;
+  }
+
+  .fullscreen__name {
+    font-size: 3rem;
+    padding-top: 5vh;
+    padding-bottom: 4vh;
+    text-align: center;
+  }
+
+  .fullscreen__text {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .fullscreen__row-image {
+    padding-top: 15vh;
+    padding-bottom: 10vh;
+  }
+
+  .fullscreen__image {
+    font-size: 6rem;
+    padding-right: 0vw;
+    float: none !important;
+    display: flex;
+    justify-content: center;
+  }
+
+  .fullscreen__icon {
+    font-size: 1rem;
+    padding-right: 1.2rem;
+  }
+
+  .fullscreen__nav {
+    font-size: 1rem;
+  }
+
+  .fullscreen__footer--col {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1024px) and (orientation: portrait) {
+  .fullscreen__content {
+    background-image: linear-gradient(to top left, #262633 50%, #141422 50%);
+  }
+
+  .fullscreen__hello {
+    font-size: 3rem;
+    padding-top: 10vh;
+    text-align: center;
+  }
+
+  .fullscreen__name {
+    font-size: 5rem;
+    padding-top: 5vh;
+    padding-bottom: 4vh;
+    text-align: center;
+  }
+
+  .fullscreen__text {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .fullscreen__row-image {
+    padding-top: 15vh;
+    padding-bottom: 10vh;
+  }
+
+  .fullscreen__image {
+    font-size: 6rem;
+    padding-right: 0vw;
+    float: none !important;
+    display: flex;
+    justify-content: center;
+  }
+
+  .fullscreen__icon {
+    font-size: 1.25rem;
+    padding-right: 1.2rem;
+  }
+
+  .fullscreen__nav {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1024px) and (orientation: landscape) {
   .fullscreen__content {
     background-image: linear-gradient(to top left, #262633 37%, #141422 37%);
   }
