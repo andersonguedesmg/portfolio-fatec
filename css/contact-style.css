@@ -133,6 +133,68 @@
   padding-top: 20vh;
 }
 
+.contact-page__text {
+  color: var(--white);
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.5px;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.social-card {
+  margin-top: 3rem;
+  background-color: var(--dark-gray);
+  width: 60rem;
+  height: 10rem;
+  border-radius: 0.625rem;
+}
+
+.social-card__centralize {
+  display: flex;
+  justify-content: center;
+}
+
+.social-card__title {
+  color: var(--white);
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+}
+
+.social-card:hover .social-card__title {
+  color: var(--green);
+  font-weight: 600;
+}
+
+.social-card__text {
+  color: var(--white);
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.social-card__icons {
+  margin: 0;
+  color: var(--green);
+  font-size: 120%;
+}
+
+.social-card__row-padding {
+  padding-bottom: 6vh;
+}
+
+.social-icon {
+  font-size: 4rem;
+  width: 4rem;
+}
+
+.social-icon--email {
+  width: 5rem;
+  margin-top: -8px;
+  margin-left: -10px;
+}
+
+
 /* Footer */
 .footer {
   padding: 10px 0;
