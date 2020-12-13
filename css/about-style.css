@@ -203,14 +203,62 @@
   }
 }
 
-@media only screen and (min-width : 321px) and (max-width : 480px) {
+@media only screen and (min-width: 321px) and (max-width: 480px) {
   .footer__copyright {
     font-size: 89%;
   }
 }
 
-@media only screen and (min-width : 691px) and (max-width : 800px) {
+@media only screen and (min-width: 691px) and (max-width: 800px) {
   .footer__copyright {
     font-size: 89%;
   }
+}
+
+.skills-card {
+  background-color: var(--dark-gray);
+  width: 60rem;
+  height: 20rem;
+  border-radius: 0.625rem;
+}
+
+.skills-card__centralize {
+  display: flex;
+  justify-content: center;
+}
+
+.skills-card__title {
+  color: var(--white);
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+}
+
+.skills-card:hover .skills-card__title {
+  color: var(--green);
+  font-weight: 600;
+}
+
+.skills-card__text {
+  color: var(--white);
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+  opacity: 0.8;
+  letter-spacing: 0.5px;
+}
+
+.skills-card__icons {
+  margin: 0;
+  color: var(--green);
+  font-size: 120%;
+}
+
+.skills-card__row-padding {
+  padding-bottom: 6vh;
+}
+
+.skills-icon {
+  font-size: 4rem;
+  width: 4rem;
 }
