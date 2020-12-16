@@ -167,9 +167,10 @@
 
 .skills-card {
   background-color: var(--dark-gray);
-  width: 60rem;
-  height: 20rem;
+  width: 58rem;
+  height: 25.5rem;
   border-radius: 0.625rem;
+  text-align: center;
 }
 
 .skills-card__centralize {
@@ -211,6 +212,31 @@
 .skills-icon {
   font-size: 4rem;
   width: 4rem;
+}
+
+.skills-icon--js {
+  width: 3.5rem;
+}
+
+.skills-icon--figma {
+  width: 3.4rem;
+  padding-left: 10px;
+}
+
+.skills-icon--ts {
+  padding-left: 5px;
+}
+
+.skills-icon--materialize {
+  padding-top: 15px;
+}
+
+.skills-icon--npm {
+  padding-top: 20px;
+}
+
+.skills-icon--mysql {
+  padding-top: 9px;
 }
 
 /* Footer */
