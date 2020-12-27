@@ -147,12 +147,12 @@
   margin-top: 3rem;
   background-color: var(--dark-gray);
   width: 60rem;
-  height: 10rem;
+  height: 9rem;
   border-radius: 0.625rem;
   text-align: center;
 }
 
-.skills-card__row{
+.skills-card__row {
   padding-top: 1.5rem;
 }
 
@@ -161,46 +161,227 @@
   justify-content: center;
 }
 
-.social-card__title {
-  color: var(--white);
-  font-family: "Red Hat Display", sans-serif;
-  font-size: 1.2rem;
-  letter-spacing: 0.8px;
-  font-weight: 500;
-}
-
-.social-card:hover .social-card__title {
-  color: var(--green);
-  font-weight: 600;
-}
-
-.social-card__text {
-  color: var(--white);
-  font-family: "Poppins", sans-serif;
-  letter-spacing: 0.5px;
-}
-
-.social-card__icons {
-  margin: 0;
-  color: var(--green);
-  font-size: 120%;
-}
-
 .social-card__row-padding {
   padding-bottom: 6vh;
 }
 
 .social-icon {
-  font-size: 4rem;
-  width: 4rem;
+  font-size: 3.5rem;
+  width: 3.5rem;
 }
 
 .social-icon--email {
-  width: 5rem;
-  margin-top: -8px;
+  width: 4.5rem;
+  margin-top: -10px;
   margin-left: -10px;
 }
 
+@media only screen and (max-width: 320px) {
+  .contact-page {
+    min-height: 78.5vh;
+  }
+
+  .contact-page__title {
+    font: Bold 18px "Red Hat Display";
+    padding-bottom: 5vh;
+    padding-top: 15vh;
+  }
+
+  .contact-page__text {
+    font-size: 12px;
+    padding-bottom: 1rem;
+  }
+
+  .social-card {
+    margin-top: 1rem;
+    width: 60rem;
+    height: 4rem;
+  }
+
+  .skills-card__row {
+    padding-top: 0rem;
+  }
+
+  .social-icon {
+    font-size: 1.5rem;
+    width: 1.5rem;
+  }
+
+  .social-icon--email {
+    width: 2rem;
+    margin-top: -4px;
+    margin-left: -6px;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .contact-page {
+    min-height: 87.5vh;
+  }
+
+  .contact-page__title {
+    font: Bold 20px "Red Hat Display";
+    padding-bottom: 5vh;
+    padding-top: 12vh;
+  }
+
+  .contact-page__text {
+    font-size: 14px;
+    padding-bottom: 1rem;
+  }
+
+  .social-card {
+    margin-top: 1rem;
+    width: 60rem;
+    height: 5rem;
+  }
+
+  .skills-card__row {
+    padding-top: 0.3rem;
+  }
+
+  .social-icon {
+    font-size: 2rem;
+    width: 2rem;
+  }
+
+  .social-icon--email {
+    width: 2.8rem;
+    margin-top: -8px;
+    margin-left: -5px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 595px) {
+  .contact-page {
+    min-height: 85.5vh;
+  }
+
+  .contact-page__title {
+    font: Bold 20px "Red Hat Display";
+    padding-bottom: 5vh;
+    padding-top: 12vh;
+  }
+
+  .contact-page__text {
+    font-size: 14px;
+    padding-bottom: 1rem;
+  }
+
+  .social-card {
+    margin-top: 3rem;
+    width: 60rem;
+    height: 5rem;
+  }
+
+  .skills-card__row {
+    padding-top: 0.3rem;
+  }
+
+  .social-icon {
+    font-size: 2rem;
+    width: 2rem;
+  }
+
+  .social-icon--email {
+    width: 2.8rem;
+    margin-top: -8px;
+    margin-left: -5px;
+  }
+}
+
+@media only screen and (min-width: 596px) and (max-width: 690px) {
+  .contact-page {
+    min-height: 88.5vh;
+  }
+
+  .contact-page__title {
+    font: Bold 20px "Red Hat Display";
+    padding-bottom: 5vh;
+    padding-top: 12vh;
+  }
+
+  .contact-page__text {
+    font-size: 14px;
+    padding-bottom: 1rem;
+  }
+
+  .social-card {
+    margin-top: 3rem;
+    width: 60rem;
+    height: 5rem;
+  }
+
+  .skills-card__row {
+    padding-top: 0.3rem;
+  }
+
+  .social-icon {
+    font-size: 2rem;
+    width: 2rem;
+  }
+
+  .social-icon--email {
+    width: 2.8rem;
+    margin-top: -8px;
+    margin-left: -5px;
+  }
+}
+
+@media only screen and (min-width: 691px) and (max-width: 800px) {
+  .contact-page {
+    min-height: 94.5vh;
+  }
+
+  .contact-page__title {
+    font: Bold 22px "Red Hat Display";
+    padding-bottom: 5vh;
+    padding-top: 12vh;
+  }
+
+  .contact-page__text {
+    font-size: 16px;
+    padding-bottom: 1rem;
+  }
+
+  .social-card {
+    margin-top: 3rem;
+    width: 60rem;
+    height: 5.5rem;
+  }
+
+  .skills-card__row {
+    padding-top: 0.3rem;
+  }
+
+  .social-icon {
+    font-size: 2.3rem;
+    width: 2.3rem;
+  }
+
+  .social-icon--email {
+    width: 2.8rem;
+    margin-top: -8px;
+    margin-left: -5px;
+  }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1024px) and (orientation: portrait) {
+  .contact-page {
+    min-height: 95.5vh;
+  }
+
+  .contact-page__title {
+    font: Bold 26px "Red Hat Display";
+    padding-bottom: 5vh;
+    padding-top: 12vh;
+  }
+
+  .contact-page__text {
+    font-size: 16px;
+    padding-bottom: 1rem;
+  }
+}
 
 /* Footer */
 .footer {
