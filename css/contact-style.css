@@ -120,6 +120,7 @@
 /* About */
 .contact-page {
   background-color: var(--dark-blue);
+  min-height: 100vh;
 }
 
 .contact-page__title {
@@ -147,6 +148,11 @@
   width: 60rem;
   height: 10rem;
   border-radius: 0.625rem;
+  text-align: center;
+}
+
+.skills-card__row{
+  padding-top: 1.5rem;
 }
 
 .social-card__centralize {
