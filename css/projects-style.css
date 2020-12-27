@@ -126,7 +126,7 @@
     background-color: var(--dark-gray);
 }
 
-.section-title {
+.project__title {
     display: flex;
     justify-content: center;
     color: var(--green);
@@ -184,6 +184,180 @@
 
 .projec__badge--bottom {
     margin-top: 0.5rem;
+}
+
+@media only screen and (max-width: 320px) {
+    .project__title {
+        font: Bold 18px "Red Hat Display";
+        padding-bottom: 5vh;
+        padding-top: 15vh;
+    }
+
+    .project__item {
+        font-size: 0.8rem;
+        padding-bottom: 1vh;
+    }
+
+    .project__item--text {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .project__text {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .project__badge {
+        font-size: 0.75rem;
+        margin-left: 0.5rem;
+        padding: 0.4rem;
+    }
+
+    .project__badge--first {
+        margin-left: 15px;
+    }
+
+    .projec__badge--bottom {
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+    .project__title {
+        font: Bold 20px "Red Hat Display";
+        padding-bottom: 5vh;
+        padding-top: 15vh;
+    }
+
+    .project__item {
+        font-size: 0.8rem;
+        padding-bottom: 1vh;
+    }
+
+    .project__item--text {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .project__text {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .project__badge {
+        font-size: 0.75rem;
+        margin-left: 0.5rem;
+        padding: 0.4rem;
+    }
+
+    .project__badge--first {
+        margin-left: 15px;
+    }
+
+    .projec__badge--bottom {
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 595px) {
+    .project__title {
+        font: Bold 20px "Red Hat Display";
+        padding-bottom: 5vh;
+        padding-top: 15vh;
+    }
+
+    .project__item {
+        font-size: 0.8rem;
+        padding-bottom: 1vh;
+    }
+
+    .project__item--text {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .project__text {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .project__badge {
+        font-size: 0.75rem;
+        margin-left: 0.5rem;
+        padding: 0.4rem;
+    }
+
+    .project__badge--first {
+        margin-left: 15px;
+    }
+
+    .projec__badge--bottom {
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (min-width: 596px) and (max-width: 690px) {
+    .project__title {
+        font: Bold 20px "Red Hat Display";
+        padding-bottom: 5vh;
+        padding-top: 15vh;
+    }
+
+    .project__item {
+        font-size: 0.8rem;
+        padding-bottom: 1vh;
+    }
+
+    .project__item--text {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .project__text {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .project__badge {
+        font-size: 0.75rem;
+        margin-left: 0.5rem;
+        padding: 0.4rem;
+    }
+
+    .project__badge--first {
+        margin-left: 15px;
+    }
+
+    .projec__badge--bottom {
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (min-width: 691px) and (max-width: 800px) {
+    .project__title {
+        font: Bold 22px "Red Hat Display";
+        padding-bottom: 5vh;
+        padding-top: 15vh;
+    }
+
+    .project__item {
+        font-size: 0.8rem;
+        padding-bottom: 1vh;
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1024px) and (orientation: portrait) {
+    .project__title {
+        font: Bold 26px "Red Hat Display";
+        padding-bottom: 5vh;
+        padding-top: 15vh;
+    }
+
+    .project__item {
+        font-size: 0.8rem;
+        padding-bottom: 1vh;
+    }
 }
 
 /* Footer */
