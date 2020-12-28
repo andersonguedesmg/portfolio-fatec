@@ -136,30 +136,72 @@
 
 @media only screen and (max-width: 320px) {
   .curriculum-page__title {
-    font: Bold 25px "Red Hat Display";
+    font: Bold 18px "Red Hat Display";
+    padding-bottom: 5vh;
+    padding-top: 15vh;
+  }
+
+  .timeline .timeline-heading h4 {
+    font-size: 0.8rem !important;
+  }
+
+  .timeline .timeline-heading h4.subheading {
+    font-size: 0.8rem !important;
+  }
+
+  .timeline .text-description {
+    font-size: 0.7rem !important;
+  }
+
+  .timeline > li .timeline-image {
+    width: 65px !important;
+    height: 65px !important;
+    margin-left: 8px !important;
+    border: 5px solid var(--grayish) !important;
+  }
+
+  .timeline > li .timeline-image h4 {
+    margin-top: -5px !important;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .curriculum-page__title {
+    font: Bold 20px "Red Hat Display";
+    padding-bottom: 5vh;
     padding-top: 15vh;
   }
 }
 
-@media only screen and (min-width : 321px) and (max-width : 480px) {
+@media only screen and (min-width: 481px) and (max-width: 595px) {
   .curriculum-page__title {
-    padding-top: 12vh;
+    font: Bold 20px "Red Hat Display";
+    padding-bottom: 5vh;
+    padding-top: 15vh;
   }
 }
 
-@media only screen and (min-width : 481px) and (max-width : 595px) {}
-
-@media only screen and (min-width : 596px) and (max-width : 690px) {}
-
-@media only screen and (min-width : 691px) and (max-width : 800px) {
+@media only screen and (min-width: 596px) and (max-width: 690px) {
   .curriculum-page__title {
-    padding-top: 10vh;
+    font: Bold 20px "Red Hat Display";
+    padding-bottom: 5vh;
+    padding-top: 15vh;
+  }
+}
+
+@media only screen and (min-width: 691px) and (max-width: 800px) {
+  .curriculum-page__title {
+    font: Bold 22px "Red Hat Display";
+    padding-bottom: 5vh;
+    padding-top: 15vh;
   }
 }
 
 @media only screen and (min-width: 801px) and (max-width: 1024px) and (orientation: portrait) {
   .curriculum-page__title {
-    padding-top: 10vh;
+    font: Bold 26px "Red Hat Display";
+    padding-bottom: 5vh;
+    padding-top: 15vh;
   }
 }
 
@@ -418,13 +460,13 @@
   }
 }
 
-@media only screen and (min-width : 321px) and (max-width : 480px) {
+@media only screen and (min-width: 321px) and (max-width: 480px) {
   .footer__copyright {
     font-size: 89%;
   }
 }
 
-@media only screen and (min-width : 691px) and (max-width : 800px) {
+@media only screen and (min-width: 691px) and (max-width: 800px) {
   .footer__copyright {
     font-size: 89%;
   }
