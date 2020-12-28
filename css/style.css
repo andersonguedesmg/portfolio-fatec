@@ -208,6 +208,54 @@ a:hover {
     padding-bottom: 6vh;
 }
 
+@media only screen and (max-width: 320px) {
+    .portfolio-page__title {
+        font: Bold 18px "Red Hat Display";
+        padding-bottom: 5vh;
+        padding-top: 15vh;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+    .portfolio-page__title {
+        font: Bold 20px "Red Hat Display";
+        padding-bottom: 5vh;
+        padding-top: 12vh;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 595px) {
+    .portfolio-page__title {
+        font: Bold 20px "Red Hat Display";
+        padding-bottom: 5vh;
+        padding-top: 12vh;
+    }
+}
+
+@media only screen and (min-width: 596px) and (max-width: 690px) {
+    .portfolio-page__title {
+        font: Bold 20px "Red Hat Display";
+        padding-bottom: 5vh;
+        padding-top: 12vh;
+    }
+}
+
+@media only screen and (min-width: 691px) and (max-width: 800px) {
+    .portfolio-page__title {
+        font: Bold 22px "Red Hat Display";
+        padding-bottom: 5vh;
+        padding-top: 12vh;
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1024px) and (orientation: portrait) {
+    .portfolio-page__title {
+        font: Bold 26px "Red Hat Display";
+        padding-bottom: 5vh;
+        padding-top: 12vh;
+    }
+}
+
 /* Footer */
 .footer {
     padding: 10px 0;
