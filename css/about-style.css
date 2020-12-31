@@ -705,15 +705,45 @@
   .footer__copyright {
     font-size: 78%;
   }
+
+  .footer__icon {
+    font-size: 12px;
+  }
 }
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
   .footer__copyright {
     font-size: 89%;
   }
+
+  .footer__icon {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 595px) {
+  .footer__copyright {
+    font-size: 89%;
+  }
+
+  .footer__icon {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 596px) and (max-width: 690px) {
+  .footer__copyright {
+    font-size: 89%;
+  }
 }
 
 @media only screen and (min-width: 691px) and (max-width: 800px) {
+  .footer__copyright {
+    font-size: 89%;
+  }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1024px) and (orientation: portrait) {
   .footer__copyright {
     font-size: 89%;
   }
