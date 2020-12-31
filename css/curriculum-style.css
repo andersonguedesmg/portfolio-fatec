@@ -134,6 +134,14 @@
   padding-top: 20vh;
 }
 
+.curriculum-page__text {
+  color: var(--white);
+  letter-spacing: 0.5px;
+  font-size: 1rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
 @media only screen and (max-width: 320px) {
   .curriculum-page__title {
     font: Bold 18px "Red Hat Display";

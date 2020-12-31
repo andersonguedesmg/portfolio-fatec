@@ -139,6 +139,14 @@ section {
     background-color: var(--dark-blue);
 }
 
+.portfolio-page__text {
+    color: var(--white);
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+    padding-bottom: 0.8rem;
+    text-align: center;
+}
+
 .portfolio-card {
     background-color: var(--dark-gray);
     cursor: pointer;
